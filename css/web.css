@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+
+@font-face {
+  font-family: 'Lato';
+  src: url('path/to/Lato-Regular.woff2') format('woff2'),
+       url('path/to/Lato-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'MyCustomFont', sans-serif;
+  background-color: #CACFD6;
+  overflow-x: hidden;
+}
+
+.section{
+  margin-top: 9rem !important;
+}
+
+ .navbar-brand{
+	color: #481B5F !important;
+}
+
+.navbar {
+  z-index: 100;
+  transition: .3s;
+}
+
+.nav-link:hover {
+  color: #481B5F !important ; 
+}
+
+
+.nav-item.active .nav-link {
+  color: #481B5F !important ;
+  font-weight: bold; 
+}
+
+
+.nav-link {
+  color: var(--text-color);
+  margin-left: 1.5rem;
+}
+
+
+.para{
+	font-size: 3.5rem;
+}
+.para2{
+	font-size: 1.5rem;
+}
+
+.image img{
+	height: 24.5rem;
+}
+
+span{
+	color: #481B5F;
+}
+
+.border-none{
+	transition: all 0.3s ease;
+  cursor: pointer
+}
+.border-none:hover{
+	box-shadow: #e9ecef;
+  transform: scale(1.1)
+}
+
+.footer{
+	background-color: #33283b;
+}
+
+.text-violet{
+	color: #9403fc;
+}
+
+.text-darkblue{
+	color: #356c87;
+}
+
+.icons{
+	height: 3rem;
+	width: 3rem;
+}
+
+.btn{
+	background-color: #785589;
+	color: white;
+}
+
+.offcanvas {
+ transition-duration: 0.2s;
+}
+
+.decoration{
+  text-decoration: none;
+}
+
